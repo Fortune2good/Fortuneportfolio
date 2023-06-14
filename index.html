@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8caf490d40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi, I'm <span>Fortune</span><br>Osemeke from Florida</h1>
+            </div>
+        </div>
+    </div>
+    <!--------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/User2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is fortune, I'm into video production and graphic designing in the present days we are now. I have 8 years of experience in the computer field. I have done great work for individuals and also a church. The software apps I work with are: Adobe Photoshop, Adobe Premiere Pro, Adobe After effect, Cinema 4d, and Adobe Final Cut.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Designer</span><br>Designing Postcard, Logo, etc</li>
+                            <li><span>Video Services</span><br>Video editing/Video Production</li>
+                           <!----- <li><span>Sound Engineer</span><br>Sound Mixer/Audio setup</li> --->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2017 - 2023</span><br>Volunteer in the Media Department at The Blessed House International Church</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010 - 2013</span><br>Certificate in an ICT Program called Digital Peers International</li>
+                            <li><span>2021 - Current</span><br>Bachelor Degree in Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Creative graphic designer with a keen eye for detail and a passion for visual storytelling. Offering innovative design solutions, expert proficiency in industry-standard software, and a collaborative approach to meet clients' needs. Transforming ideas into visually compelling designs that captivate and engage audiences.</p>
+                     <!------ <a href="#">Learn more</a> ---->
+                </div>
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>Video Services</h2>
+                    <p>Professional video services delivering impactful storytelling through compelling visuals, seamless editing, and captivating motion graphics. Skilled in crafting engaging promotional videos, corporate presentations, and social media content. Utilizing industry-leading software and a creative mindset to bring your vision to life and leave a lasting impression.</p>
+                    <!------ <a href="#">Learn more</a> ---->
+                </div>
+                <!---<div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Sound Setup </h2>
+                    <p>
+                        Experienced sound setup/mixer providing flawless audio solutions for events, performances, and productions. Specializing in crisp sound quality, seamless equipment integration, and expertly balancing levels for optimal audience experience. Ensuring every sound is crystal clear and harmoniously aligned to enhance the overall atmosphere.</p>
+                      <a href="#">Learn more</a>
+                </div> ----->
+            </div>
+        </div>
+    </div>
+    <!---------Portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Pastor-Isaac2.png">
+                    <div class="layer">
+                        <h3>Post Card Design</h3>
+                        <p>Click here to see the full version of the design</p>
+                        <a href="images/Pastor-Isaac .png"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Ola.png">
+                    <div class="layer">
+                        <h3>Post Card Design</h3>
+                        <p>Click here to see the full version of the design</p>
+                        <a href="images/Ola.png"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Christmasfinal.png">
+                    <div class="layer">
+                        <h3>Post Card Design</h3>
+                        <p>Click here to see the full version of the design</p>
+                        <a href="images/Christmasfinal.png"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Fellowshipping-Together.png">
+                    <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>Click here to see the full version of the Video editing</p>
+                        <a href="https://youtu.be/SIev-JU5C5c"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images//Pastor-Charles-birthday.png">
+                    <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>Click here to see the full version of the Video editing</p>
+                        <a href="https://youtu.be/t6rk77W3bCc"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Senator-Tanko.png">
+                    <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>Click here to see the full version of the Video editing</p>
+                        <a href="https://youtu.be/NXrbMldSmoI"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="images/Fire-of-Fellowshipping-Together.mp4" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>patlightgabriel@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>4076403490</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/osemeke.fortune"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/fortune019/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Fortunes Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Fortune Osemeke.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz5Iw8Pwxj1QZL-mUfR4NTL1wdGx_5wwrOmVKUjNvBe3RtUIDf0AiVEwTtXfHwmSTOxdg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
