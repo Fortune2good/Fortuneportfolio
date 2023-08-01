@@ -335,11 +335,15 @@ nav .fa-solid{
         background-image: url(images/phone-background7.png);
     }
     .header-text{
-        margin-top: 120%;
+        margin-top: 110%;
         font-size: 16px;
     }
+     .header-text p{
+        padding-right: 70px;
+        font-size: 22px;
+    }
     .header-text h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .work{
         border-radius: 10px;
@@ -436,7 +440,7 @@ nav .fa-solid{
         margin-bottom: 30px;
     }
     .about-col-2{
-        font-size: 14px;
+        font-size: 17px;
     }
     .tab-links{
         font-size: 16px;
